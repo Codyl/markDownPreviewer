@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    margin: 40px auto 0 auto;
+    #left {
+      flex: 1;
+      background-color: black;
+      border: 1px dotted white;
+      height: 80vh;
+      padding: 10px;
+    }
+    #right {
+      flex: 1;
+      background-color: black;
+      border: 1px dotted white;
+      height: 80vh;
+      padding: 10px;
+    }
+    div {
+      
+    }
+    #editor {
+      width: 99%;
+      height: 80%;
+      font-size:1rem;
+    }
+    #preview {
+      background-color: grey;
+      height: 80%;
+      overflow-y: scroll;
+    }
+  }
+  body {
+    background-image: url('https://source.unsplash.com/-aWyVkkLrc8/1500x1500');
+      // background-size: 100% 100%;
+  }
+  .whiteText {
+    color: white;
+  }
